@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_test_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/find_longest_palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/is_perfect_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/effective_java/efficiency_of_patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/final_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/float_precision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_constructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_dates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_iterators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_polymorhpism_overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedin/test_strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/turing_test_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/turing_test_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/turing_test_3.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GKydpUjCmfe4hgvWwGJdnAuwVN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="turing" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="interview_test_code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="interview_test_code" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="" />
+      <created>1666151663333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666151663333</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
