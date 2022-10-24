@@ -1,4 +1,4 @@
-package coding_challenges;
+package coding_challenges.hard;
 
 public class find_longest_palindrome {
 

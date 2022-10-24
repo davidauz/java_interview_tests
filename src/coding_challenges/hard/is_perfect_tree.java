@@ -1,4 +1,4 @@
-package coding_challenges;
+package coding_challenges.hard;
 
 import static java.lang.Math.random;
 
@@ -32,7 +32,7 @@ public class is_perfect_tree {
 Perfect Binary Tree Check
 A binary tree is perfect when all levels are complete.
 Write a method that checks if a binary tree is perfect.
-coding_challenges.TreeNode API methods: node.left() and node.right().
+coding_challenges.hard.TreeNode API methods: node.left() and node.right().
 */
         if(null==node.left() && null==node.right())
             return true;

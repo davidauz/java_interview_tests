@@ -1,4 +1,6 @@
-import coding_challenges.*;
+//import coding_challenges.*;
+//import coding_challenges.hard.*;
+import coding_challenges.medium.*;
 import effective_java.*;
 import linkedin.*;
 import turing.*;
@@ -13,8 +15,11 @@ public class Main {
 
     private static void coding_interview_planner() {
 // These are from https://code-exercises.com/coding-interview-planner/
-        new is_perfect_tree().go();
-        new find_longest_palindrome().go();
+// Hard
+//        new is_perfect_tree().go();
+//        new find_longest_palindrome().go();
+// Medium
+        new even_fibonacci_sum().go();
     }
 
     private static void turing_tests() {
@@ -42,9 +47,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        linkedin_tests();
-        turing_tests();
+//        linkedin_tests();
+//        turing_tests();
         coding_interview_planner();
-        effective_java();
+//        effective_java();
     }
 }
