@@ -1,23 +1,25 @@
-//import coding_challenges.*;
-//import coding_challenges.hard.*;
+import coding_challenges.hard.*;
 import coding_challenges.medium.*;
 import effective_java.*;
 import linkedin.*;
 import turing.*;
 
+
 public class Main {
 
     private static void effective_java() {
 //  from the awesome book "Effective Java"
-        new efficiency_of_patterns().go();
+//        new efficiency_of_patterns().go();
+//        new try_with_resources().go();
+        new weak_soft_phantom().go();
     }
 
 
     private static void coding_interview_planner() {
 // These are from https://code-exercises.com/coding-interview-planner/
 // Hard
-//        new is_perfect_tree().go();
-//        new find_longest_palindrome().go();
+        new is_perfect_tree().go();
+        new find_longest_palindrome().go();
 // Medium
         new even_fibonacci_sum().go();
     }
@@ -49,7 +51,7 @@ public class Main {
     public static void main(String[] args) {
 //        linkedin_tests();
 //        turing_tests();
-        coding_interview_planner();
-//        effective_java();
+//        coding_interview_planner();
+        effective_java();
     }
 }
