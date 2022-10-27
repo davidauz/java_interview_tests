@@ -1,16 +1,24 @@
 import coding_challenges.hard.*;
 import coding_challenges.medium.*;
 import effective_java.*;
+import generic.armstrong_number;
 import linkedin.*;
 import turing.*;
 
 
 public class Main {
 
+
+    private static void generic_tests() {
+//  random tests found on the internet
+        new armstrong_number().go();
+    }
+
+
     private static void effective_java() {
 //  from the awesome book "Effective Java"
-//        new efficiency_of_patterns().go();
-//        new try_with_resources().go();
+        new efficiency_of_patterns().go();
+        new try_with_resources().go();
         new weak_soft_phantom().go();
     }
 
@@ -22,6 +30,7 @@ public class Main {
         new find_longest_palindrome().go();
 // Medium
         new even_fibonacci_sum().go();
+        new strict_binary_tree().go();
     }
 
     private static void turing_tests() {
@@ -49,9 +58,11 @@ public class Main {
 
 
     public static void main(String[] args) {
-//        linkedin_tests();
-//        turing_tests();
-//        coding_interview_planner();
+        linkedin_tests();
+        turing_tests();
+        coding_interview_planner();
         effective_java();
+        generic_tests();
     }
+
 }
