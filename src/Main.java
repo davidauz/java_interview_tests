@@ -2,12 +2,11 @@ import coding_challenges.hard.*;
 import coding_challenges.medium.*;
 import effective_java.*;
 import generic.*;
+import design_patterns.*;
 import linkedin.*;
 import turing.*;
 
-
 public class Main {
-
 
     private static void generic_tests() {
 //  random tests found on the internet
@@ -58,13 +57,13 @@ public class Main {
         new linkedin.test_strings().go();
     }
 
-
     public static void main(String[] args) {
         linkedin_tests();
         turing_tests();
         coding_interview_planner();
         effective_java();
         generic_tests();
+        new design_patterns().go();
     }
 
 }
