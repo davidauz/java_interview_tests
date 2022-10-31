@@ -3,7 +3,7 @@ package turing;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class turing_test_2 {
+public class turing_test_challenge_1 {
     class Solution {
         /**
          * @param str: String to be tested for validity

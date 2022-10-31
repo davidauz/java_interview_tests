@@ -1,7 +1,7 @@
 import coding_challenges.hard.*;
 import coding_challenges.medium.*;
 import effective_java.*;
-import generic.armstrong_number;
+import generic.*;
 import linkedin.*;
 import turing.*;
 
@@ -12,6 +12,7 @@ public class Main {
     private static void generic_tests() {
 //  random tests found on the internet
         new armstrong_number().go();
+        new collections().go();
     }
 
 
@@ -35,9 +36,10 @@ public class Main {
 
     private static void turing_tests() {
 //      The following are taken from the Turing tests https://developers.turing.com/
-        new turing_test_1().go(new String[] {"5", "2", "C", "D", "+"});
-        new turing_test_2().go("()[]{}");
-        new turing_test_3().go("5 7 3 9 4 9 8 3 1,1 2 2 4 4 1,1 2 3");
+        new turing_test_practice_1().go("5 7 3 9 4 9 8 3 1,1 2 2 4 4 1,1 2 3");
+        new turing_test_practice_2().go(new String[] {"5", "2", "C", "D", "+"});
+        new turing_test_challenge_1().go("()[]{}");
+        new turing_test_challenge_2().go(3);
     }
 
     private static void linkedin_tests() {

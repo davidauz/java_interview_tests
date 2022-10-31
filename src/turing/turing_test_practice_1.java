@@ -2,7 +2,7 @@ package turing;
 
 import java.util.*;
 
-public class turing_test_3 {
+public class turing_test_practice_1 {
     class Solution {
         public static int solution(int[][] cards) {
             // write your solution here

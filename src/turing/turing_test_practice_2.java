@@ -2,7 +2,7 @@ package turing;
 
 import java.util.ArrayList;
 
-public class turing_test_1 {
+public class turing_test_practice_2 {
     public void go(String[] args) {
         System.out.println(Solution.calPoints(args));
     }
@@ -43,18 +43,5 @@ public class turing_test_1 {
 
             }
         }
-
-
-            /* public static void go(String args[] ops)
-            {
-                //Scanner sc = new Scanner(System.in);
-                //String[] ops = sc.nextLine().split(" ");
-
-                System.out.println(Solution.calPoints(ops));
-            }
-
-             */
-
-
     }
 
