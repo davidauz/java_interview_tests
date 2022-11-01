@@ -13,6 +13,7 @@ public class Main {
 //  random tests found on the internet
         new armstrong_number().go();
         new collections().go();
+        new lambda_expressions().go();
     }
 
 
