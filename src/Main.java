@@ -56,7 +56,7 @@ public class Main {
         new test_operators().go();
         new test_polymorhpism_overriding().go();
         new test_reflection().go();
-        new linkedin.test_strings().go();
+        new test_strings().go();
     }
 
 
