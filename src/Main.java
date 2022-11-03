@@ -12,6 +12,7 @@ public class Main {
 //  random tests found on the internet
         new armstrong_number().go();
         new collections().go();
+        new lambda_expressions().go();
     }
 
 
@@ -54,7 +55,7 @@ public class Main {
         new test_operators().go();
         new test_polymorhpism_overriding().go();
         new test_reflection().go();
-        new linkedin.test_strings().go();
+        new test_strings().go();
     }
 
     public static void main(String[] args) {
