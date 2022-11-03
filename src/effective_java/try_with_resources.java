@@ -13,7 +13,7 @@ class must_be_closed_1 implements Closeable {
         System.out.println("1: I am being opened!");
         status= try_with_resources.object_status.OPEN;
         if(must_raise_exception)
-            throw new IOException("1: something wrong during open!");
+            throw new IOException("1: This exception is raised on purpose");
     }
 
     public void some_operation()throws IOException{
@@ -21,7 +21,7 @@ class must_be_closed_1 implements Closeable {
             throw new IllegalAccessError("1: Wrong status!");
         System.out.println("1: I am performing complex operations...");
         if(must_raise_exception)
-            throw new IOException("1: something wrong in an operation!");
+            throw new IOException("2: This exception is raised on purpose");
     }
     @Override
     public void close() throws IOException {

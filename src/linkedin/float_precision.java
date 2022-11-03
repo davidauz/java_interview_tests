@@ -5,7 +5,7 @@ public class float_precision {
 //		float a = 0.5; ERROR possible lossy conversion from double to float
 //		float a = (double)0.5; ERROR possible lossy conversion from double to float
 //		float a = 0.5d; ERROR possible lossy conversion from double to float
-        System.out.println( "Prova Float / double");
+        System.out.println( "Test Float / double");
         float a1 = 0.5f;
         float a2 = (float)0.5;
 
