@@ -32,7 +32,7 @@ class must_be_closed_1 implements Closeable {
             throw new IOException("1: something wrong during close!");
 
         status= try_with_resources.object_status.CLOSED;
-        System.out.println("1: I am closed!");
+        System.out.println("1: I am being closed!");
     }
 }
 

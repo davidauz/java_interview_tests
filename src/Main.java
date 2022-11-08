@@ -13,6 +13,7 @@ public class Main {
         new armstrong_number().go();
         new collections().go();
         new lambda_expressions().go();
+        new nested_classes().go();
     }
 
 
@@ -43,7 +44,7 @@ public class Main {
     }
 
     private static void linkedin_tests() {
-//      The following are taken from the Linkedin assessment tests
+//      The following are taken from the LinkedIn assessment tests
         new final_class().go();
         new float_precision().go();
         new test_arrays().go();
