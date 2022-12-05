@@ -63,10 +63,12 @@ class Fish extends Animal{
 
 // interface for tester class
 interface animal_tester {
-//  This is a "functional interface": they may contain one or more default methods or
+//  This is a "functional interface": it may contain one or more default or
 //  static methods but only one abstract method.
     boolean test(Animal a);
 }
+
+
 // tester class
 class test_animal_criteria implements animal_tester {
     @Override
@@ -84,6 +86,25 @@ class test_animal_criteria implements animal_tester {
 
 public class lambda_expressions {
 
+// some helper members
+    private List<Animal> look_for_paws(List<Animal> list_animals, int i) {
+        List<Animal> return_value = new ArrayList<>();
+        for (Animal animal:list_animals) {
+            if(i==animal.paws)
+                return_value.add(animal);
+        }
+        return return_value;
+    }
+
+    private List<Animal> look_with_tester_class(List<Animal> list_animals, animal_tester tac) {
+        List<Animal> return_value = new ArrayList<>();
+        for (Animal animal:list_animals)
+            if (tac.test(animal))
+                return_value.add(animal);
+
+        return return_value;
+    }
+
 // start from here
     public void go(){
 // some data
@@ -94,9 +115,6 @@ public class lambda_expressions {
                 ;
 // populate list
         List<Animal> list_animals = new ArrayList<>(List.of(Felix, Rio, Nemo, Tom));
-
-
-
 
 
 
@@ -155,31 +173,6 @@ public class lambda_expressions {
         );
         for (Animal animal:result_list)
             System.out.println( "Lambda expression: "+animal.getClass()+" `"+animal.get_name()+"` has `"+animal.paws+"` paws.");
-    }
-
-
-
-
-
-
-
-
-    private List<Animal> look_for_paws(List<Animal> list_animals, int i) {
-        List<Animal> return_value = new ArrayList<>();
-        for (Animal animal:list_animals) {
-            if(i==animal.paws)
-                return_value.add(animal);
-        }
-        return return_value;
-    }
-
-    private List<Animal> look_with_tester_class(List<Animal> list_animals, animal_tester tac) {
-        List<Animal> return_value = new ArrayList<>();
-        for (Animal animal:list_animals)
-            if (tac.test(animal))
-                return_value.add(animal);
-
-        return return_value;
     }
 
 }
