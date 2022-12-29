@@ -33,6 +33,7 @@ public class Main {
 // Medium
         new even_fibonacci_sum().go();
         new strict_binary_tree().go();
+        new array_rotation().go();
     }
 
     private static void turing_tests() {
