@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/hard/longest_common_sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/hard/array_inversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coding_challenges/medium/array_rotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coding_challenges/medium/array_rotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +44,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="coding_challenges.hard" />
       <recent name="design_patterns" />
       <recent name="turing" />
       <recent name="coding_challenges.medium" />
       <recent name="generic" />
-      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="coding_challenges" />
