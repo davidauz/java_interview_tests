@@ -3,7 +3,7 @@ import coding_challenges.medium.*;
 import effective_java.*;
 import generic.*;
 import linkedin.*;
-import AlanMathison.*;
+import assortedRecruiters.*;
 import design_patterns.*;
 
 public class Main {
@@ -38,7 +38,7 @@ public class Main {
         new array_rotation().go();
     }
 
-    private static void alan_mathison_tests() {
+    private static void assorted_recruiters_tests() {
 //      The following are taken from one random online recruiter
         new test_practice_1().go("5 7 3 9 4 9 8 3 1,1 2 2 4 4 1,1 2 3");
         new test_practice_2().go(new String[] {"5", "2", "C", "D", "+"});
@@ -47,6 +47,8 @@ public class Main {
         new findOddWords().go();
         new test_challenge_2().go(3);
         new test_challenge_3().go("a");
+        new TypingTime().go();
+        new SpecialCard().go();
     }
 
     private static void linkedin_tests() {
@@ -67,7 +69,7 @@ public class Main {
 
     public static void main(String[] args) {
         linkedin_tests();
-        alan_mathison_tests();
+        assorted_recruiters_tests();
         coding_interview_planner();
         effective_java();
         generic_tests();

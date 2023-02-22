@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="" />
+    <list default="true" id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assortedRecruiters/SpecialCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assortedRecruiters/TypingTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/findOddWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/findOddWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_practice_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_practice_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_practice_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_practice_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +52,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="AlanMathison" />
       <recent name="turing" />
       <recent name="coding_challenges.hard" />
       <recent name="design_patterns" />
       <recent name="coding_challenges.medium" />
-      <recent name="generic" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="coding_challenges" />
@@ -99,14 +111,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/AlanMathison/test_challenge_1.java</url>
+          <url>file://$PROJECT_DIR$/src/assortedRecruiters/test_challenge_1.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
