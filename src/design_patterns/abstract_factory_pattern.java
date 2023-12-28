@@ -1,8 +1,8 @@
 package design_patterns;
-/*
-This pattern is also called `factory of factories`.
-It is a kind of factory that creates other factories.
- */
+
+//This pattern is also called `factory of factories`.
+//It is a kind of factory that creates other factories.
+
 
 //first interface implemented by all animals
 interface animal {

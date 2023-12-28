@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7f7ec6d1-ec73-4219-8924-c67d54b2d16a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assortedRecruiters/SpecialCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assortedRecruiters/TypingTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/findOddWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/findOddWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_challenge_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_challenge_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_practice_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_practice_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlanMathison/test_practice_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assortedRecruiters/test_practice_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,18 +33,28 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/davidauz/devel/java_interview_tests&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/davidauz/devel/github/java_interview_tests",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="AlanMathison" />
@@ -58,15 +63,52 @@
       <recent name="design_patterns" />
       <recent name="coding_challenges.medium" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="coding_challenges" />
       <recent name="turing" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="design_patterns" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.design_patterns_tests.test_builder">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="design_patterns_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="design_patterns" />
+      <option name="MAIN_CLASS_NAME" value="design_patterns.design_patterns_tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="design_patterns_tests.test_builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="design_patterns" />
+      <option name="MAIN_CLASS_NAME" value="design_patterns.design_patterns_tests" />
+      <option name="METHOD_NAME" value="test_builder" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.design_patterns_tests.test_builder" />
+        <item itemvalue="JUnit.design_patterns_tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,5 +168,9 @@
         <breakpoint suspend="NONE" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
