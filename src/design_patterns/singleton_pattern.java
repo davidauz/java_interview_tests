@@ -16,12 +16,3 @@ class singleton_object{
         return ++m_times;
     }
 }
-public class singleton_pattern {
-    public void go() {
-        // This is silly because I am doing all this in a single file.
-        // Actually the reason for this would be to have a single object existing in the whole project.
-        System.out.println("Singleton has been called "+singleton_object.getInstance().get_times_called()+" times.");
-        System.out.println("Singleton has been called "+singleton_object.getInstance().get_times_called()+" times.");
-        System.out.println("Singleton has been called "+singleton_object.getInstance().get_times_called()+" times.");
-    }
-}

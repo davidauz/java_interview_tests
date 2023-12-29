@@ -3,6 +3,7 @@ package design_patterns;
 //This pattern is also called `factory of factories`.
 //It is a kind of factory that creates other factories.
 
+// mammals_factory and reptilian_factory are both animal_abstract_factory
 
 //first interface implemented by all animals
 interface animal {
@@ -133,27 +134,5 @@ class animal_factory_producer {
     }
 }
 
-// here mammals_factory and reptilian_factory are both animal_abstract_factory
-public class abstract_factory_pattern {
-    public void go() {
-        String animal_descr="CAT";
-        animal a;
-        animal_abstract_factory mammals_factory = animal_factory_producer.get_factory("MAMMAL");
-        animal_abstract_factory reptilian_factory = animal_factory_producer.get_factory("REPTILIAN");
 
-        a = mammals_factory.get_animal(animal_descr);
-        System.out.println("I am a `"+animal_descr+"` and I go `"+a.noise()+"`");
 
-        animal_descr="KANGAROO";
-        a = mammals_factory.get_animal(animal_descr);
-        System.out.println("I am a `"+animal_descr+"` and I go `"+a.noise()+"`");
-
-        animal_descr="SNAKE";
-        a = reptilian_factory.get_animal(animal_descr);
-        System.out.println("I am a `"+animal_descr+"` and I go `"+a.noise()+"`");
-
-        animal_descr="LIZARD";
-        a = reptilian_factory.get_animal(animal_descr);
-        System.out.println("I am a `"+animal_descr+"` and I go `"+a.noise()+"`");
-    }
-}

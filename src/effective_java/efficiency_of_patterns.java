@@ -31,11 +31,11 @@ public class efficiency_of_patterns {
 
             System.out.println("Running tests YES COMPILE");
             l = currentTimeMillis();
-            test_si_compile(1000);
+            test_yes_compile(1000);
             System.out.println("Time elapsed: "+(currentTimeMillis()-l));
         }
 
-        private static void test_si_compile(int i) {
+        private static void test_yes_compile(int i) {
             for(int n=0; n<i; n++){
                 p_fp.matcher(fp_code).matches( );
                 p_fp.matcher(p_code).matches( );
@@ -52,10 +52,6 @@ public class efficiency_of_patterns {
                 Pattern.matches(part_regex, fp_code);
             }
         }
-    }
-
-    public void go() {
-        pattern_efficiency.test_patterns();
     }
 
 }

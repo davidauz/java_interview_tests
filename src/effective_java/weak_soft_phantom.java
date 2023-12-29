@@ -18,7 +18,7 @@ class some_random_class {
 
 }
 public class weak_soft_phantom {
-    private void strong_reference() {
+    public void strong_reference() {
             System.out.println("\nDemonstration of STRONG Reference (the usual kind)");
             some_random_class strong_reference_1 = new some_random_class("Strong Reference");
             some_random_class strong_reference_2 = strong_reference_1;
@@ -44,7 +44,7 @@ public class weak_soft_phantom {
     }
 
 
-    private void weak_reference() {
+    public void weak_reference() {
         System.out.println("\nDemonstration of WEAK reference");
         some_random_class weak_reference_1 = new some_random_class("Weak Reference");
         weak_reference_1.m_double=9.87654321;
@@ -66,7 +66,7 @@ public class weak_soft_phantom {
     }
 
 
-    private void soft_reference() {
+    public void soft_reference() {
         System.out.println("\nDemonstration of SOFT reference");
         some_random_class orig_instance = new some_random_class("Soft Reference");
         orig_instance.m_double=9.87654321;
@@ -87,7 +87,7 @@ public class weak_soft_phantom {
         }
     }
 
-    private void phantom_reference() {
+    public void phantom_reference() {
         System.out.println("\nDemonstration of PHANTOM reference");
         some_random_class original_instance = new some_random_class("Phantom Reference");
         original_instance.m_double=9.87654321;
@@ -116,12 +116,5 @@ public class weak_soft_phantom {
             System.out.println("The reference has been cleared");
         else
             System.out.println("The reference has NOT been cleared");
-    }
-
-    public void go(){
-        strong_reference();
-        weak_reference();
-        soft_reference();
-        phantom_reference();
     }
 }

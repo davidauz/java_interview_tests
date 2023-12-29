@@ -33,7 +33,7 @@ class must_be_closed_1 implements Closeable {
             throw new IOException("1: something wrong during close!");
 
         status= try_with_resources.object_status.CLOSED;
-        System.out.println("1: I am being closed!");
+        System.out.println("1: I am being closed (automatically)!");
     }
 }
 
@@ -83,7 +83,7 @@ public class try_with_resources {
     , CLOSED
     , ERROR
     }
-    private void go_exception_1() {
+    public void go_exception_1() {
         System.out.println("\nRaising an exception");
         try(
                 must_be_closed_1 MBC1 = new must_be_closed_1();
@@ -101,7 +101,7 @@ public class try_with_resources {
         }
     }
 
-    private void go_exception_2() {
+    public void go_exception_2() {
         System.out.println("\nRaising an exception in 1 some_operation");
         try(
                 must_be_closed_1 MBC1 = new must_be_closed_1();
@@ -119,7 +119,7 @@ public class try_with_resources {
         }
     }
 
-    private void go_smooth() {
+    public void go_smooth() {
         System.out.println("\nRunning smoothly");
         try(
                 must_be_closed_1 MBC1 = new must_be_closed_1();
@@ -135,18 +135,6 @@ public class try_with_resources {
         }finally{
             System.out.println("Finally: the two objects have been opened and closed.");
         }
-    }
-
-    public void go() {
-//        System.out.print("------- CASE 1 -------");
-//        go_smooth();
-//
-//        System.out.print("------- CASE 2 -------");
-//        go_exception_1();
-
-        System.out.print("------- CASE 3 -------");
-        go_exception_2();
-        System.out.println("END");
     }
 
 }

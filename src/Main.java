@@ -17,14 +17,6 @@ public class Main {
     }
 
 
-    private static void effective_java() {
-//  from the awesome book "Effective Java"
-        new efficiency_of_patterns().go();
-        try { new try_with_resources().go(); } catch(Exception e){}
-        new weak_soft_phantom().go();
-    }
-
-
     private static void coding_interview_planner() {
 // These are from https://code-exercises.com/coding-interview-planner/
 // Hard
@@ -71,8 +63,6 @@ public class Main {
         linkedin_tests();
         assorted_recruiters_tests();
         coding_interview_planner();
-        effective_java();
         generic_tests();
-        new design_patterns().go();
     }
 }
