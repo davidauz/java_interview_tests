@@ -57,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="constructs" />
       <recent name="AlanMathison" />
       <recent name="turing" />
       <recent name="coding_challenges.hard" />
       <recent name="design_patterns" />
-      <recent name="coding_challenges.medium" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,59 +73,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="design_patterns" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="constructs.boundedWildcardType" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.effective_java_tests.test_try_with_resources">
+  <component name="RunManager" selected="JUnit.generics_bundle_tests">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="design_patterns_tests.test_abstract_factory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design_patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="design_patterns" />
-      <option name="MAIN_CLASS_NAME" value="design_patterns.design_patterns_tests" />
-      <option name="METHOD_NAME" value="test_abstract_factory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="design_patterns_tests.test_singleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design_patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="design_patterns" />
-      <option name="MAIN_CLASS_NAME" value="design_patterns.design_patterns_tests" />
-      <option name="METHOD_NAME" value="test_singleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="effective_java_tests.test_efficiency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="effective_java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="effective_java" />
-      <option name="MAIN_CLASS_NAME" value="effective_java.effective_java_tests" />
-      <option name="METHOD_NAME" value="test_efficiency" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +117,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="generics_bundle_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="constructs.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="constructs" />
+      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generics_bundle_tests.test_bounded_wildcard_type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="constructs.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="constructs" />
+      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
+      <option name="METHOD_NAME" value="test_bounded_wildcard_type" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generics_bundle_tests.test_generics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="constructs.boundedWildcardType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="constructs" />
+      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
+      <option name="METHOD_NAME" value="test_generics" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java_interview_tests" />
       <method v="2">
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.generics_bundle_tests" />
+        <item itemvalue="JUnit.generics_bundle_tests.test_bounded_wildcard_type" />
+        <item itemvalue="JUnit.generics_bundle_tests.test_generics" />
         <item itemvalue="JUnit.effective_java_tests.test_try_with_resources" />
         <item itemvalue="JUnit.effective_java_tests.test_weak_soft_phantom" />
-        <item itemvalue="JUnit.effective_java_tests.test_efficiency" />
-        <item itemvalue="JUnit.design_patterns_tests.test_singleton" />
-        <item itemvalue="JUnit.design_patterns_tests.test_abstract_factory" />
       </list>
     </recent_temporary>
   </component>
