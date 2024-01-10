@@ -1,7 +1,7 @@
 package design_patterns;
 
 //separate the construction of an object from its representation
-public class building {
+public class builder_pattern {
 	private int floors
 	,	construction_year
 	;
@@ -12,7 +12,7 @@ public class building {
 	,	is_private
 	;
 
-	public building(building_builder bb) {
+	public builder_pattern(building_builder bb) {
 		construction_year=bb.construction_year;
 		floors=bb.floors;
 		address=bb.address;
@@ -63,8 +63,8 @@ public class building {
 		}
 
 
-		public building build(){
-			building building_instance=new building(this);
+		public builder_pattern build(){
+			builder_pattern building_instance=new builder_pattern(this);
 			return building_instance;
 		}
 

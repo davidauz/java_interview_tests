@@ -22,8 +22,6 @@ public class Main {
 // Hard
         new is_perfect_tree().go();
         new find_longest_palindrome().go();
-        new longest_common_sequence().go();
-        new array_inversion().go();
 // Medium
         new even_fibonacci_sum().go();
         new strict_binary_tree().go();

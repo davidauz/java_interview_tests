@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static effective_java.efficiency_of_patterns.pattern_efficiency.*;
 
-//  from the awesome book "Effective Java"
+//  from the awesome book "Effective Java" by Joshua Bloch
 
 public class effective_java_tests {
 
