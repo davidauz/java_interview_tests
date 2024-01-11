@@ -1,4 +1,4 @@
-package constructs.boundedWildcardType;
+package language.boundedWildcardType;
 
 public class Carnivore extends Person<Meat> {
 	public Carnivore(String name) {

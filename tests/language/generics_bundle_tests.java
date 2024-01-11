@@ -1,10 +1,10 @@
-package constructs;
+package language;
 
-import constructs.boundedWildcardType.*;
-import constructs.generics.data_audio;
-import constructs.generics.data_basic;
-import constructs.generics.data_text;
-import constructs.generics.generics_bundle;
+import language.boundedWildcardType.*;
+import language.generics.data_audio;
+import language.generics.data_basic;
+import language.generics.data_text;
+import language.generics.generics_bundle;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;

@@ -1,4 +1,4 @@
-package constructs.generics;
+package language.generics;
 
 import java.util.ArrayList;
 

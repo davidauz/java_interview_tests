@@ -1,4 +1,4 @@
-package constructs.generics;
+package language.generics;
 
 public class data_text extends data_basic {
 	private String m_text;

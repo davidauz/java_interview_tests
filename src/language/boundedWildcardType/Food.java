@@ -1,4 +1,4 @@
-package constructs.boundedWildcardType;
+package language.boundedWildcardType;
 
 public class Food {
 	private String name;

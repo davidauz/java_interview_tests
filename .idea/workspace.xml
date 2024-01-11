@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -71,16 +71,50 @@
       <recent name="turing" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="language.threads" />
+      <recent name="language" />
       <recent name="design_patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.design_patterns_tests.test_proxy_pattern">
+  <component name="RunManager" selected="JUnit._threads_class_tests.test_virtual_threads">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_threads_class_tests.test_platform_threads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="language.threads" />
+      <option name="MAIN_CLASS_NAME" value="language.threads._threads_class_tests" />
+      <option name="METHOD_NAME" value="test_platform_threads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_threads_class_tests.test_virtual_threads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="language.threads" />
+      <option name="MAIN_CLASS_NAME" value="language.threads._threads_class_tests" />
+      <option name="METHOD_NAME" value="test_virtual_threads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,48 +135,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generics_bundle_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pass_value_reference_test.test_pvr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="constructs.generics.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="constructs" />
-      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="generics_bundle_tests.test_bounded_wildcard_type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="constructs.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="constructs" />
-      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
-      <option name="METHOD_NAME" value="test_bounded_wildcard_type" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="generics_bundle_tests.test_generics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="constructs.boundedWildcardType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="constructs" />
-      <option name="MAIN_CLASS_NAME" value="constructs.generics_bundle_tests" />
-      <option name="METHOD_NAME" value="test_generics" />
+      <option name="PACKAGE_NAME" value="language" />
+      <option name="MAIN_CLASS_NAME" value="language.pass_value_reference_test" />
+      <option name="METHOD_NAME" value="test_pvr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._threads_class_tests.test_virtual_threads" />
+        <item itemvalue="JUnit.pass_value_reference_test.test_pvr" />
+        <item itemvalue="JUnit._threads_class_tests.test_platform_threads" />
         <item itemvalue="JUnit.design_patterns_tests.test_proxy_pattern" />
         <item itemvalue="JUnit.test_hard__challenges.test_array_inversion" />
-        <item itemvalue="JUnit.generics_bundle_tests" />
-        <item itemvalue="JUnit.generics_bundle_tests.test_bounded_wildcard_type" />
-        <item itemvalue="JUnit.generics_bundle_tests.test_generics" />
       </list>
     </recent_temporary>
   </component>

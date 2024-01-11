@@ -1,6 +1,5 @@
-package constructs.boundedWildcardType;
+package language.boundedWildcardType;
 
-import java.util.Collection;
 import java.util.List;
 
 public abstract class Person<T extends Food> {
