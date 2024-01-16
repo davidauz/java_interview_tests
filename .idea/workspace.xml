@@ -71,34 +71,19 @@
       <recent name="turing" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="language.threads" />
       <recent name="language" />
+      <recent name="generic" />
+      <recent name="language.threads" />
       <recent name="design_patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._threads_class_tests.test_virtual_threads">
+  <component name="RunManager" selected="JUnit.modern_switch_expression_test.test_animals">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_threads_class_tests.test_platform_threads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="language.threads" />
-      <option name="MAIN_CLASS_NAME" value="language.threads._threads_class_tests" />
-      <option name="METHOD_NAME" value="test_platform_threads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,23 +104,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="design_patterns_tests.test_proxy_pattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lambda_expressions_test.test_lambda_expressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_patterns.*" />
+          <option name="PATTERN" value="generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="design_patterns" />
-      <option name="MAIN_CLASS_NAME" value="design_patterns.design_patterns_tests" />
-      <option name="METHOD_NAME" value="test_proxy_pattern" />
+      <option name="PACKAGE_NAME" value="generic" />
+      <option name="MAIN_CLASS_NAME" value="generic.lambda_expressions_test" />
+      <option name="METHOD_NAME" value="test_lambda_expressions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pass_value_reference_test.test_pvr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="modern_switch_expression_test.test_animals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
@@ -144,24 +129,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="language" />
-      <option name="MAIN_CLASS_NAME" value="language.pass_value_reference_test" />
-      <option name="METHOD_NAME" value="test_pvr" />
+      <option name="MAIN_CLASS_NAME" value="language.modern_switch_expression_test" />
+      <option name="METHOD_NAME" value="test_animals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_hard__challenges.test_array_inversion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="modern_switch_expression_test.test_switch_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.hard.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="coding_challenges.hard" />
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.hard.test_hard__challenges" />
-      <option name="METHOD_NAME" value="test_array_inversion" />
+      <option name="PACKAGE_NAME" value="language" />
+      <option name="MAIN_CLASS_NAME" value="language.modern_switch_expression_test" />
+      <option name="METHOD_NAME" value="test_switch_expression" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nested_classes_test.go" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generic" />
+      <option name="MAIN_CLASS_NAME" value="generic.nested_classes_test" />
+      <option name="METHOD_NAME" value="go" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.modern_switch_expression_test.test_animals" />
+        <item itemvalue="JUnit.modern_switch_expression_test.test_switch_expression" />
+        <item itemvalue="JUnit.lambda_expressions_test.test_lambda_expressions" />
+        <item itemvalue="JUnit.nested_classes_test.go" />
         <item itemvalue="JUnit._threads_class_tests.test_virtual_threads" />
-        <item itemvalue="JUnit.pass_value_reference_test.test_pvr" />
-        <item itemvalue="JUnit._threads_class_tests.test_platform_threads" />
-        <item itemvalue="JUnit.design_patterns_tests.test_proxy_pattern" />
-        <item itemvalue="JUnit.test_hard__challenges.test_array_inversion" />
       </list>
     </recent_temporary>
   </component>
