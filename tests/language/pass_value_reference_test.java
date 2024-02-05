@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 class pass_value_reference_test {
 	@Test
 	public void test_pvr() {
-		some_object co1 = new some_object(); // actually co1 is a pointer to a some_object
+		example_pojo co1 = new example_pojo(); // actually co1 is a pointer to a example_pojo
 //or so it would be called in other languages
 		System.out.println("co1 default values: "+co1.toString());
-		some_object co2=co1; //co2 is nothing but a pointer to co1
+		example_pojo co2=co1; //co2 is nothing but a pointer to co1
 		System.out.println("co2 points to co1: "+co2.toString());
 		co1.string_field="Modified string value";
 		co1.int_field=5;
@@ -36,7 +36,7 @@ class pass_value_reference_test {
 		System.out.println("Now there are no longer pointers to co1 or co2, the garbage collector frees the memory.");
 	}
 
-	private void modify_object(some_object co) {
+	private void modify_object(example_pojo co) {
 		co.string_field="MODIFICATION";
 		co.int_field=0;
 		co.long_field=0;

@@ -53,10 +53,10 @@ Returns
 
         try {
             bufferedWriter.write(
-                    result.stream()
-                            .map(Object::toString)
-                            .collect(joining(" "))
-                            + "\n"
+            result.stream()
+            .map(Object::toString)
+            .collect(joining(" "))
+            + "\n"
             );
             bufferedWriter.close();
         } catch (IOException e) {

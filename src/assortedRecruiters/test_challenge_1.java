@@ -14,27 +14,23 @@ public class test_challenge_1 {
             Deque<Character> stack = new ArrayDeque<Character>();
             for(int i=0; i< s.length(); i++){
                 ch=s.charAt(i);
-                switch (ch){
-                    case '(':
-                    case '{':
-                    case '[':
-                        stack.push(ch);
-                        break;
-                    case ')':
-                        popped=stack.pop();
-                        if(popped!='(')
+                switch (ch) {
+                    case '(', '{', '[' -> stack.push(ch);
+                    case ')' -> {
+                        popped = stack.pop();
+                        if (popped != '(')
                             return false;
-                        break;
-                    case '}':
-                        popped=stack.pop();
-                        if(popped!='{')
+                    }
+                    case '}' -> {
+                        popped = stack.pop();
+                        if (popped != '{')
                             return false;
-                        break;
-                    case  ']':
-                        popped=stack.pop();
-                        if(popped!='[')
+                    }
+                    case ']' -> {
+                       popped = stack.pop();
+                        if (popped != '[')
                             return false;
-                        break;
+                    }
                 }
             }
             return true;

@@ -71,8 +71,9 @@
       <recent name="turing" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="language" />
       <recent name="generic" />
+      <recent name="language.streams" />
+      <recent name="language" />
       <recent name="language.threads" />
       <recent name="design_patterns" />
     </key>
@@ -80,7 +81,7 @@
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.record_keyword_test.test_record_keyword">
+  <component name="RunManager" selected="JUnit.collectionsTest.test_hash_map">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
@@ -88,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lambda_expressions_test.test_lambda_expressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="collectionsTest.test_array_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
@@ -97,46 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.lambda_expressions_test" />
-      <option name="METHOD_NAME" value="test_lambda_expressions" />
+      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
+      <option name="METHOD_NAME" value="test_array_list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modern_switch_expression_test.test_animals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="language" />
-      <option name="MAIN_CLASS_NAME" value="language.modern_switch_expression_test" />
-      <option name="METHOD_NAME" value="test_animals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="modern_switch_expression_test.test_switch_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="language" />
-      <option name="MAIN_CLASS_NAME" value="language.modern_switch_expression_test" />
-      <option name="METHOD_NAME" value="test_switch_expression" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nested_classes_test.go" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="collectionsTest.test_hash_map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
@@ -145,24 +114,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.nested_classes_test" />
-      <option name="METHOD_NAME" value="go" />
+      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
+      <option name="METHOD_NAME" value="test_hash_map" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="record_keyword_test.test_record_keyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="collectionsTest.test_hash_set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="language.*" />
+          <option name="PATTERN" value="generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="language" />
-      <option name="MAIN_CLASS_NAME" value="language.record_keyword_test" />
-      <option name="METHOD_NAME" value="test_record_keyword" />
+      <option name="PACKAGE_NAME" value="generic" />
+      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
+      <option name="METHOD_NAME" value="test_hash_set" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="collectionsTest.test_stack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generic" />
+      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
+      <option name="METHOD_NAME" value="test_stack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="collectionsTest.test_vector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generic" />
+      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
+      <option name="METHOD_NAME" value="test_vector" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.record_keyword_test.test_record_keyword" />
-        <item itemvalue="JUnit.modern_switch_expression_test.test_animals" />
-        <item itemvalue="JUnit.modern_switch_expression_test.test_switch_expression" />
-        <item itemvalue="JUnit.lambda_expressions_test.test_lambda_expressions" />
-        <item itemvalue="JUnit.nested_classes_test.go" />
+        <item itemvalue="JUnit.collectionsTest.test_hash_map" />
+        <item itemvalue="JUnit.collectionsTest.test_hash_set" />
+        <item itemvalue="JUnit.collectionsTest.test_array_list" />
+        <item itemvalue="JUnit.collectionsTest.test_vector" />
+        <item itemvalue="JUnit.collectionsTest.test_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,7 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/assortedRecruiters/test_challenge_1.java</url>
-          <line>39</line>
+          <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

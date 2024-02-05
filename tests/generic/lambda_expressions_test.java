@@ -4,8 +4,17 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class lambda_expressions_test {
+
+	private void show_results(String prompt, List<Animal> result_list) {
+		for (Animal animal:result_list)
+			System.out.println( prompt+": "+animal.getClass()+" `"+animal.get_name()+"` has `"+animal.paws+"` paws.");
+	}
+
+
 	@Test
 	public void test_lambda_expressions(){
 // some data
@@ -35,7 +44,7 @@ public class lambda_expressions_test {
 
 
 //------------------------------ level 3 ----------------------------
-// Or, I could use an anonymous class, so I have my criteria always under my eye:
+// Or, I could use an anonymous class, so I have my criteria welded right here where I can see it:
 		result_list= lambda_expressions.look_with_tester_class(list_animals, new animal_tester() {
 			public boolean test(Animal a) {
 				return a.paws==2 && a.get_name().equals("Rio");
@@ -48,8 +57,12 @@ public class lambda_expressions_test {
 
 //------------------------------ level 4 ----------------------------
 // Or I could use a (drumroll) LAMBDA FUNCTION!
-		result_list= lambda_expressions.look_with_tester_class(list_animals
-				,   (Animal a) -> a.get_name().equals("Rio") && 2==a.paws
+		result_list= lambda_expressions.look_with_tester_class
+		(	list_animals
+		,   (Animal a) -> a.get_name().equals("Rio") && 2==a.paws
+//              |           |
+//              |          this is the function body
+//          this is the list of parameters
 		);
 		show_results("Lambda expression", result_list);
 
@@ -57,10 +70,37 @@ public class lambda_expressions_test {
 
 	}
 
+	@Test
+	public void streams_and_lambdas(){
+		Animal a1 = new Cat("Felix")
+		, a2=new Ostrich("Rupert")
+		, a3=new Fish("Dory")
+		, a4 = new Cat("Topcat")
+		;
+		Animal[] animals=new Animal[]{a1, a2, a3, a4};
 
+		Stream.of(animals)
+		.forEach(
+		a -> // this could be (a), (Animal a), Animal a
+		{	System.out.println
+				(	"I am "
+				+	a.get_name()
+				+	" and i go `"
+				+	a.noise()
+				+	"`"
+				);
+		});
 
-	private void show_results(String prompt, List<Animal> result_list) {
-		for (Animal animal:result_list)
-			System.out.println( prompt+": "+animal.getClass()+" `"+animal.get_name()+"` has `"+animal.paws+"` paws.");
+		Stream.of(animals)
+		.filter(a -> a.paws == 2 )
+		.forEach(a->System.out.println(a.get_name()+" has 2 paws"));
+		;
+
+		Stream.of(animals)
+		.filter(a -> a.paws == 4 && a.get_name().equals("Felix"))
+		.forEach(a->System.out.println(a.get_name()+" has 4 paws and his name is Felix"));
+		;
 	}
+
+
 }

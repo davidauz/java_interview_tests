@@ -93,13 +93,12 @@ class mammal_factory extends animal_abstract_factory {
     @Override
     public animal get_animal(String animal_description) {
         switch (animal_description) {
-            case "CAT":
-                return new Cat();
-            case "KANGAROO":
-                return new Kangaroo();
-            default:
+            case "CAT"->{ return new Cat();}
+            case "KANGAROO"->{ return new Kangaroo();}
+            default->{
                 System.out.println("`" + animal_description + "`: no such animal");
                 return null;
+            }
         }
     }
 }
@@ -109,13 +108,12 @@ class reptilian_factory extends animal_abstract_factory {
     @Override
     public animal get_animal(String animal_description) {
         switch (animal_description) {
-            case "SNAKE":
-                return new Snake();
-            case "LIZARD":
-                return new Lizard();
-            default:
+            case "SNAKE"-> { return new Snake(); }
+            case "LIZARD"->{ return new Lizard();}
+            default-> {
                 System.out.println("`" + animal_description + "`: no such animal");
                 return null;
+            }
         }
     }
 }

@@ -11,7 +11,6 @@ public class Main {
     private static void generic_tests() {
 //  random tests found on the internet
         new armstrong_number().go();
-        new collections().go();
     }
 
 
@@ -29,7 +28,6 @@ public class Main {
     private static void assorted_recruiters_tests() {
 //      The following are taken from one random online recruiter
         new test_practice_1().go("5 7 3 9 4 9 8 3 1,1 2 2 4 4 1,1 2 3");
-        new test_practice_2().go(new String[] {"5", "2", "C", "D", "+"});
         new test_challenge_1().go("()[]{}");
         new CardGame().go();
         new findOddWords().go();

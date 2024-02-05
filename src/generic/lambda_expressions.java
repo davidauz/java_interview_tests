@@ -54,14 +54,10 @@ class Fish extends Animal{
 
 
 
-
-
-
-
 // interface for tester class
 /*functional*/ interface animal_tester {
-//  a "functional interface" may contain one or more default or
-//  static methods but only one abstract method.
+//  a "functional interface" is defined as having only one abstract method,
+//  but may contain any number of default or  static methods.
     boolean test(Animal a);
 }
 
@@ -87,19 +83,23 @@ class test_animal_criteria implements animal_tester {
 
 public class lambda_expressions {
 
-// some helper members
+// This is the most basic way
     public static List<Animal> look_for_paws(List<Animal> list_animals, int i) {
-        List<Animal> return_value = new ArrayList<>();
+        List<Animal> animals = new ArrayList<>();
         for (Animal animal:list_animals) {
             if(i==animal.paws)
-                return_value.add(animal);
+                animals.add(animal);
         }
-        return return_value;
+        return animals;
     }
 
-    public static List<Animal> look_with_tester_class(List<Animal> list_animals, animal_tester tac) {
+//This is a more advanced way
+    public static List<Animal> look_with_tester_class
+    (   List<Animal> animals
+    ,   animal_tester tac
+    ) {
         List<Animal> return_value = new ArrayList<>();
-        for (Animal animal:list_animals)
+        for (Animal animal:animals)
             if (tac.test(animal))
                 return_value.add(animal);
 
