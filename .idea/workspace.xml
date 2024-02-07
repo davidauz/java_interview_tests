@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.collectionsTest.test_hash_map">
+  <component name="RunManager" selected="JUnit.strings_tests.build_a_string">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
@@ -137,22 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collectionsTest.test_stack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
-      <option name="METHOD_NAME" value="test_stack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="collectionsTest.test_vector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
@@ -164,6 +148,22 @@
       <option name="PACKAGE_NAME" value="generic" />
       <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
       <option name="METHOD_NAME" value="test_vector" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strings_tests.build_a_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="language" />
+      <option name="MAIN_CLASS_NAME" value="language.strings_tests" />
+      <option name="METHOD_NAME" value="build_a_string" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.strings_tests.build_a_string" />
         <item itemvalue="JUnit.collectionsTest.test_hash_map" />
         <item itemvalue="JUnit.collectionsTest.test_hash_set" />
         <item itemvalue="JUnit.collectionsTest.test_array_list" />
         <item itemvalue="JUnit.collectionsTest.test_vector" />
-        <item itemvalue="JUnit.collectionsTest.test_stack" />
       </list>
     </recent_temporary>
   </component>

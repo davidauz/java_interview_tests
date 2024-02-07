@@ -49,9 +49,9 @@ public class modern_switch_expression {
 
 	public static void print_movement(animal ani){
 		switch(ani){
-			case DUCK,CHICKEN,DOG,CAT ->{System.out.println("run");}
+			case CHICKEN,DOG,CAT ->{System.out.println("run");}
 			case SNAKE ->{System.out.println("slither");}
-			case HOUSEFLY,BUTTERFLY ->{System.out.println("fly");}
+			case DUCK,HOUSEFLY,BUTTERFLY ->{System.out.println("fly");}
 		}
 	}
 }
