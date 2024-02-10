@@ -25,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/local/jdk-21.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -81,26 +84,10 @@
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.strings_tests.build_a_string">
+  <component name="RunManager" selected="JUnit.streams_test.test_map">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="collectionsTest.test_array_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview_test_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
-      <option name="METHOD_NAME" value="test_array_list" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,33 +108,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collectionsTest.test_hash_set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="streams_test.foreach_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.*" />
+          <option name="PATTERN" value="language.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
-      <option name="METHOD_NAME" value="test_hash_set" />
+      <option name="PACKAGE_NAME" value="language.streams" />
+      <option name="MAIN_CLASS_NAME" value="language.streams.streams_test" />
+      <option name="METHOD_NAME" value="foreach_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collectionsTest.test_vector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="streams_test.test_foreach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.*" />
+          <option name="PATTERN" value="language.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
-      <option name="METHOD_NAME" value="test_vector" />
+      <option name="PACKAGE_NAME" value="language.streams" />
+      <option name="MAIN_CLASS_NAME" value="language.streams.streams_test" />
+      <option name="METHOD_NAME" value="test_foreach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="streams_test.test_map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview_test_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="language.streams" />
+      <option name="MAIN_CLASS_NAME" value="language.streams.streams_test" />
+      <option name="METHOD_NAME" value="test_map" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.streams_test.test_map" />
+        <item itemvalue="JUnit.streams_test.test_foreach" />
+        <item itemvalue="JUnit.streams_test.foreach_test" />
         <item itemvalue="JUnit.strings_tests.build_a_string" />
         <item itemvalue="JUnit.collectionsTest.test_hash_map" />
-        <item itemvalue="JUnit.collectionsTest.test_hash_set" />
-        <item itemvalue="JUnit.collectionsTest.test_array_list" />
-        <item itemvalue="JUnit.collectionsTest.test_vector" />
       </list>
     </recent_temporary>
   </component>
