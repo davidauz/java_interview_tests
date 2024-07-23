@@ -31,6 +31,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2GKydpUjCmfe4hgvWwGJdnAuwVN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,24 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/davidauz/devel/github/java_interview_tests&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.pass_value_reference_test.test_modify_primitive.executor": "Run",
+    "JUnit.pass_value_reference_test.test_pvr.executor": "Debug",
+    "JUnit.synchronized_example.main.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/davidauz/devel/github/java_interview_tests",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="constructs" />
@@ -84,7 +92,7 @@
       <recent name="constructs.boundedWildcardType" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.streams_test.test_map">
+  <component name="RunManager" selected="JUnit.synchronized_example.main">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="interview_test_code" />
@@ -92,33 +100,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collectionsTest.test_hash_map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pass_value_reference_test.test_modify_primitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generic" />
-      <option name="MAIN_CLASS_NAME" value="generic.collectionsTest" />
-      <option name="METHOD_NAME" value="test_hash_map" />
+      <option name="PACKAGE_NAME" value="language" />
+      <option name="MAIN_CLASS_NAME" value="language.pass_value_reference_test" />
+      <option name="METHOD_NAME" value="test_modify_primitive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="streams_test.foreach_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pass_value_reference_test.test_pvr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="language.streams.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="language.streams" />
-      <option name="MAIN_CLASS_NAME" value="language.streams.streams_test" />
-      <option name="METHOD_NAME" value="foreach_test" />
+      <option name="PACKAGE_NAME" value="language" />
+      <option name="MAIN_CLASS_NAME" value="language.pass_value_reference_test" />
+      <option name="METHOD_NAME" value="test_pvr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="strings_tests.build_a_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="synchronized_example.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview_test_code" />
       <extension name="coverage">
         <pattern>
@@ -165,33 +173,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="language" />
-      <option name="MAIN_CLASS_NAME" value="language.strings_tests" />
-      <option name="METHOD_NAME" value="build_a_string" />
+      <option name="MAIN_CLASS_NAME" value="language.synchronized_example" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="java_interview_tests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="java_interview_tests" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.synchronized_example.main" />
+        <item itemvalue="JUnit.pass_value_reference_test.test_pvr" />
+        <item itemvalue="JUnit.pass_value_reference_test.test_modify_primitive" />
         <item itemvalue="JUnit.streams_test.test_map" />
         <item itemvalue="JUnit.streams_test.test_foreach" />
-        <item itemvalue="JUnit.streams_test.foreach_test" />
-        <item itemvalue="JUnit.strings_tests.build_a_string" />
-        <item itemvalue="JUnit.collectionsTest.test_hash_map" />
       </list>
     </recent_temporary>
   </component>

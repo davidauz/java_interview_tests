@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.GregorianCalendar;
 
 public class strings_tests {
+
 	@Test
 	public void build_a_string() {
 //two ways to build a string

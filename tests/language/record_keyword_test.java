@@ -2,10 +2,9 @@ package language;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class record_keyword_test {
-	public String show_object(record_keyword_example rke){
+
+	public String show_object(exampleRecord rke){
 		return String.format
 		(	"has volume=%f, density=%f\nits dimension are:%fx%fx%f\nand its weight is %f"
 		,	rke.get_volume() // can call its members
@@ -16,12 +15,14 @@ class record_keyword_test {
 		,	rke.weight()
 		);
 	}
+
+
 	@Test
 	public void test_record_keyword(){
 // constructor is generated with all the needed fields
-		record_keyword_example rke = new record_keyword_example(2.1, 3.2, 4.3, 5.4)
-		,	another_rke=new record_keyword_example(2, 3, 4, 5)
-		,	custom_constructor_rke=new record_keyword_example(12);
+		exampleRecord rke = new exampleRecord(2.1, 3.2, 4.3, 5.4)
+		,	another_rke=new exampleRecord(2, 3, 4, 5)
+		,	custom_constructor_rke=new exampleRecord(12)
 		;
 		System.out.println("First object "+show_object(rke));
 		System.out.println("Second object "+show_object(another_rke));

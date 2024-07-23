@@ -2,7 +2,7 @@ package language;
 
 
 //A Record is an immutable data class that requires only the type and name of fields:
-public record record_keyword_example
+public record exampleRecord
 (	double width
 ,	double height
 ,	double depth
@@ -19,7 +19,7 @@ public record record_keyword_example
 	}
 
 // custom constructor
-	public record_keyword_example (double volume){
+	public exampleRecord(double volume){
 		this(0, 0, 0, volume);
 	}
 
