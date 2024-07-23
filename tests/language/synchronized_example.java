@@ -2,6 +2,8 @@ package language;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 class chocolate_warehouse{
@@ -9,12 +11,11 @@ class chocolate_warehouse{
 
 	public chocolate_warehouse(){
 		wh=new example_pojo();
-		wh.int_field=0;
+		wh.int_field=50; // initial quantity
 	}
 
 	public synchronized boolean delivery_eat(int grams) {
 		if (wh.int_field + grams < 0){
-			System.out.println("Not enough chocolate! You want to eat `"+grams+"` but there is only `"+wh.int_field+"`!");
 			return false;
 		}
 		wh.int_field+=grams;
@@ -26,34 +27,82 @@ class chocolate_warehouse{
 	}
 }
 
-class delivery_eat_thread extends Thread {
+
+
+
+
+
+
+class child_thread extends Thread {
 	static Random rand = new Random();
 	chocolate_warehouse m_cwh;
 
-	public delivery_eat_thread(chocolate_warehouse cwh) {
+	public child_thread(chocolate_warehouse cwh) {
 		m_cwh=cwh;
 	}
 
 	@Override
 	public void run() {
 		int quantity
-				,	times=0
-				;
+		,	num_tries=0
+		;
 		try{
 			while(true) {
-				quantity=rand.nextInt(100)-50;
-				Thread.sleep(Math.abs(10*quantity));
-				if(m_cwh.delivery_eat(quantity))
-					System.out.println(threadId()+": Successful transaction `"+quantity+"`");
-				else
-					System.out.println(threadId()+": `"+quantity+"` was not successful");
-				if(10<times++){
-					System.out.println(threadId()+": Had enough.");
+				quantity=1+rand.nextInt(20); // avoid eating zero
+				if(m_cwh.delivery_eat(-quantity)) {
+					System.out.println("Child " + threadId() + ": (try "+num_tries+") Successfully ate `" + quantity + "`");
+				} else {
+					System.out.println("Child " + threadId() + ":  (try " + num_tries + ") Could not eat `" + quantity + "`");
+				}
+				if(10<num_tries){
+					System.out.println("Child "+threadId()+": enough.");
 					return;
 				}
+				if(10<num_tries++)
+						return;
+				Thread.sleep(Math.abs(300*quantity));
 			}
 		}catch(InterruptedException e){
-			System.out.println(threadId()+": trouble");
+			System.out.println("Child "+threadId()+": trouble");
+			e.printStackTrace();
+		}
+	}
+}
+
+
+
+
+
+
+
+class delivery_truck extends Thread {
+	static Random rand = new Random();
+	chocolate_warehouse m_cwh;
+
+	public delivery_truck(chocolate_warehouse cwh) {
+		m_cwh=cwh;
+	}
+
+	@Override
+	public void run() {
+		int quantity
+		,	times=0
+		;
+		try{
+			while(true) {
+				quantity=rand.nextInt(500);
+				if(m_cwh.delivery_eat(quantity))
+					System.out.println("Delivery truck "+threadId()+": Successfully delivered `"+quantity+"`");
+				else
+					System.out.println("Delivery truck "+threadId()+": `"+quantity+"` delivery was not successful");
+				if(5<times++){
+					System.out.println("Delivery truck "+threadId()+": Enough delivered.");
+					return;
+				}
+				Thread.sleep(Math.abs(40*quantity));
+			}
+		}catch(InterruptedException e){
+			System.out.println("Delivery truck "+threadId()+": trouble");
 			e.printStackTrace();
 		}
 	}
@@ -64,22 +113,29 @@ public class synchronized_example {
 
 		@Test
 		public void main() {
-			chocolate_warehouse cwh = new chocolate_warehouse();
-			Thread t1 = new delivery_eat_thread(cwh);
-			Thread t2 = new delivery_eat_thread(cwh);
-			Thread t3 = new delivery_eat_thread(cwh);
+			List<Thread> threads=new ArrayList<>();
 
-			// Starting the threads
-			t1.start();
-			t2.start();
-			t3.start();
+			chocolate_warehouse cwh = new chocolate_warehouse();
+
+
+			threads.add(new delivery_truck(cwh));
+			threads.getLast().start();
+
+			for(int i=0; i<20 ; i++) {
+				threads.add(new child_thread(cwh));
+				threads.getLast().start();
+			}
 
 			// Joining the threads to ensure main thread waits for them to finish
 			try {
-				t1.join();
-				t2.join();
-				t3.join();
-			} catch (InterruptedException e) {
+				threads.stream().forEach(e-> {
+					try {
+						e.join();
+					} catch (InterruptedException ex) {
+						throw new RuntimeException(ex);
+					}
+				});
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 
