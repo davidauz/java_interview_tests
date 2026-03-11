@@ -1,5 +1,5 @@
 # java_interview_tests
-This is a collection of snippets that gathered from various sources, namely:
+This is a collection of snippets gathered from various sources, namely:
 
 https://www.linkedin.com/skills-demonstration/skills/
 

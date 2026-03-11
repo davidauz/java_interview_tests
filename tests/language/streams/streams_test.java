@@ -3,11 +3,11 @@ package language.streams;
 import language.example_pojo;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class streams_test {
 
@@ -63,6 +63,37 @@ class streams_test {
 		.collect(Collectors.toList())
 		;
 		pojos_dump("After", pojos);
+	}
+
+	@Test
+	void test_anymatch(){
+		String[] stringa=new String[]{};
+		boolean bFoundA4=false
+		, bFoundA4orB4=false
+		;
+		List<String> astr=Arrays.asList(new String[]
+			{	"a1"
+			,	"a2"
+			,	"a3"
+			,	"a4"
+			,	"a5"
+			,	"a6"
+			,	"a7"
+			,	"a8"
+			,	"a9"
+			,	"aa"
+			,	"ab"
+			,	"ac"
+			,	"ad"
+			,	"ae"
+			});
+
+//does any element in list satisfy given condition
+		bFoundA4=astr.stream().anyMatch(s->s.equals("a4"));
+		bFoundA4orB4=astr.stream().anyMatch(s->(s.equals("a4")||s.equals("b4")));
+
+		assert(true==bFoundA4);
+		assert(true==bFoundA4orB4);
 	}
 
 }

@@ -1,10 +1,8 @@
 import coding_challenges.hard.*;
 import coding_challenges.medium.*;
-import effective_java.*;
 import generic.*;
 import linkedin.*;
 import assortedRecruiters.*;
-import design_patterns.*;
 
 public class Main {
 
